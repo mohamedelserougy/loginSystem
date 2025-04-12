@@ -1,0 +1,68 @@
+/* start variable */
+    :root{
+        --main-color:#24353F;
+    }
+/* end variable */
+
+
+/* start global rule */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Titillium Web", sans-serif;
+}
+
+input:focus{
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+.groupStyle{
+    background-color: var(--main-color);
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1{
+    color: #17a2b8;
+}
+/* end global rule */
+
+
+
+body{
+    background-color: var(--main-color);
+}
+.form-control{
+    color: white !important;
+    background-color: transparent;
+}
+
+.form-control:focus{
+    background-color: transparent;
+    border-color: #80bdff;
+    outline: 0;
+}
+.form-control::placeholder{
+    color: #B6B6B6;
+}
+
+.signUpLink:hover{
+    text-decoration: underline !important;
+}
+
+
+
+
+/* start home */
+.navbar-toggler {
+    color: rgba(255, 255, 255, .5);
+}
+@media (max-width:992px){
+    .navbutton{
+        width: 100% ;
+    }
+}
+.home{
+    margin-top: 14rem;
+}
+/* end home */

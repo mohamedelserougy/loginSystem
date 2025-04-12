@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login test</title>
+
+    <!-- googleFont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- style main sheet  -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container text-center my-5">
+        <div class="loginBox w-75 m-auto p-5 groupStyle">
+          <h1>Smart Login System</h1>
+          <input
+            type="text"
+            name=""
+            id="signInEmail"
+            placeholder="Enter your email"
+            class="form-control my-3"
+          />
+
+          <input
+            type="password"
+            name=""
+            id="signInPassword"
+            placeholder="Enter your password"
+            class="form-control mb-3"
+          />
+          <span id="incorrectMsg" class="text-danger m-3 d-none"
+            >incorrect email or password</span
+          >
+          <span id="RequiedInputs" class="text-danger m-3 d-none"
+            >All Input Is Requied</span
+          >
+          <button
+            id="loginbtn"
+            class="btn my-3 btn-outline-info w-100 text-capitalize fw-semibold"
+          >
+            login
+          </button>
+          <p class="text-white">
+            Don’t have an account?
+            <a
+              href="./signup.html"
+              class="text-white text-decoration-none signUpLink"
+              >Sign Up</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- force rebuild -->
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/sign_in.js"></script>
+  </body>
+</html>
